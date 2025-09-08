@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/KingOfPopMJ1/KingOfPopMJ1.github.io#readme",
   "dependencies": {
-    "@ln-e/node-ssi": "^1.0.1"
+    "ssi": "^0.3.0"
   }
 }
