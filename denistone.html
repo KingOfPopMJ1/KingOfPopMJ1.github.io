@@ -4,16 +4,63 @@
 <head>
   <title>KNT</title>
   <style>
-    <!--#include file="parts/styles.css" -->
+    body {
+    background-color: orange;
+}
+
+.flex-container {
+    display: flex;
+    background-color: orange;
+}
+
+.flex-container>div {
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p {
+    font-family: 'Didot LP', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
   </style>
 </head>
 
 <body>
   <div class="flex-container">
-    <!--#include file="parts/header.phtml" -->
+    
+    <div><img src="KNT_Logo.png" alt="KNT Logo"></div>
+    <div>the header image goes here</div>
+
   </div>
   <div class="flex-container">
-    <!--#include file="parts/menu.phtml" -->
+      <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="denistone.html">Denistone</a></li>
+        <li><a href="warrawee.html">Warrawee</a></li>
+        <li><a href="leightonfield.html">Leightonfield</a></li>
+        <li><a href="Parramatta.html">Parramatta</a></li>
+      </ul>
+    </div>
     <div class="body">
 
        <h1>Denistone</h1>
@@ -54,7 +101,7 @@
     </div>
   </div>
   <div class="footer">
-    <!--#include file="parts/footer.phtml" -->
+        <div>By Kento N and Eddie L</div>
   </div>
 </body>
 

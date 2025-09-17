@@ -3,7 +3,7 @@ var ssi = require("ssi");
 var rootDirectory = "/Users/kotaronobuhara/code/KingOfPopMJ1.github.io"
 var inputDirectory = rootDirectory +"/inputFiles";
 var outputDirectory = rootDirectory;
-var matcher = "**/*.shtml";
+var matcher = "**/*.html";
  
 console.log("debug 1")
 var includes = new ssi(inputDirectory, outputDirectory, matcher);
