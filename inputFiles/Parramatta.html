@@ -4,33 +4,18 @@
 <head>
   <title>KNT</title>
   <style>
-    body {
-      background-color: orange;
-    }
-
-    h1 {
-      color: rgb(255, 255, 255); 
-      text-align: center;
-    }
-
-    p {
-      font-family: 'Didot LP', 'Times New Roman', Times, serif;
-      font-size: 20px;
-    }
+      <!--#include file="parts/styles.css" -->
   </style>
 </head>
 
 <body>
-  <img src="KNT_Logo.png" alt="KNT Logo">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="denistone.html">Denistone</a></li>
-    <li><a href="warrawee.html">Warrawee</a></li>
-    <li><a href="leightonfield.html">Leightonfield</a></li>
-     <li><a href="Parramatta.html">Parramatta</a></li>
-    
-    
-  </ul>
+  <div class="flex-container">
+    <!--#include file="parts/header.phtml" -->
+  </div>
+  <div class="flex-container">
+    <!--#include file="parts/menu.phtml" -->
+    <div class="body">
+
   <h1>Parramatta<h1>
     <p>Parramatta (/ˌpærəˈmætə/; Dharuk: Burramatta) is a suburb and major commercial centre in Greater Western Sydney.[7][8] Parramatta is located approximately 24 kilometres (15 mi) west of the Sydney CBD, on the banks of the Parramatta River.[2] It is commonly regarded as the secondary central business district of metropolitan Sydney.
 
@@ -400,3 +385,12 @@ Corner O'Connell Street and Dunlop Street, North Parramatta: Parramatta Correcti
 54 Sorrell Street: Endrim[118]
 43a Thomas Street: Broughton House[119]
 </p>
+
+    </div>
+  </div>
+  <div class="footer">
+    <!--#include file="parts/footer.phtml" -->
+  </div>
+</body>
+
+</html>
