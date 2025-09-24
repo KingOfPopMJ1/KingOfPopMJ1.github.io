@@ -4,32 +4,18 @@
 <head>
   <title>KNT</title>
   <style>
-    body {
-      background-color: orange;
-    }
-
-    h1 {
-      color: rgb(255, 255, 255);
-      text-align: center;
-    }
-
-    p {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 20px;
-    }
+    <!--#include file="parts/styles.css" -->
   </style>
 </head>
 
 <body>
-  
-  <img src="KNT_Logo.png" alt="KNT Logo">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="denistone.html">Denistone</a></li>
-    <li><a href="warrawee.html">Warrawee</a></li>
-    <li><a href="leightonfield.html">Leightonfield</a></li>
-    <li><a href="Parramatta.html">Parramatta</a></li>
-  </ul>
+  <div class="flex-container">
+    <!--#include file="parts/header.phtml" -->
+  </div>
+  <div class="flex-container">
+    <!--#include file="parts/menu.phtml" -->
+    <div class="body">
+    
   <h1>Leightonfield</h1>
   <p>Leightonfield is an industrial locality in south-western Sydney, in the state of New South Wales, Australia.[1]
 
@@ -47,7 +33,11 @@ Leightonfield is exclusively an industrial estate within Villawood that features
 Transport
 It is served by Sydney Trains and various bus routes.
 
-</p>
+ </div>
+  </div>
+  <div class="footer">
+    <!--#include file="parts/footer.phtml" -->
+  </div>
 </body>
 
 </html>
