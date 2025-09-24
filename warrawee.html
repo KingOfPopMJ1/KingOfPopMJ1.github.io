@@ -3,33 +3,67 @@
 
 <head>
   <title>KNT</title>
-  <style>
-    body {
-      background-color: orange;
-    }
+   <style>
+     body {
+    background-color: orange;
+}
 
-    h1 {
-      color: rgb(255, 255, 255);
-      text-align: center;
-    }
+.flex-container {
+    display: flex;
+    background-color: orange;
+}
 
-    p {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 20px;
-    }
+.flex-container>div {
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+p {
+    font-family: 'Didot LP', 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
   </style>
 </head>
 
 <body>
-  <img src="KNT_Logo.png" alt="KNT Logo">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="denistone.html">Denistone</a></li>
-    <li><a href="warrawee.html">Warrawee</a></li>
-    <li><a href="leightonfield.html">Leightonfield</a></li>
-     <li><a href="Parramatta.html">Parramatta</a></li>
-  </ul>
-  <h1>Warrawee</h1>
+  <div class="flex-container">
+    
+    <div><img src="KNT_Logo.png" alt="KNT Logo"></div>
+    <div>the header image goes here</div>
+
+  </div>
+  <div class="flex-container">
+      <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="denistone.html">Denistone</a></li>
+        <li><a href="warrawee.html">Warrawee</a></li>
+        <li><a href="leightonfield.html">Leightonfield</a></li>
+        <li><a href="Parramatta.html">Parramatta</a></li>
+      </ul>
+    </div>
+    <div class="body">
+
+       <h1>Warrawee</h1>
   <p>Warrawee is a suburb on the Upper North Shore of Sydney in the state of New South Wales, Australia. Warrawee is
     located 17 kilometres north-west of the Sydney Central Business District, in the local government area of
     Ku-ring-gai Council.[2] Warrawee is predominantly a residential suburb with few commercial entities. Notably, its
@@ -111,10 +145,24 @@
 
     Knox Grammar School is predominately in the suburb of Warrawee, and sits no more than 200m from Warrawee railway
     station. The school lists its address as Wahroonga since the Administration Office is situated within that
-    suburb.[13]
+    suburb.[13]</p>
 
-  </p>
-
+    
+    </div>
+  </div>
+  <div class="footer">
+        <div>By Kento N and Eddie L</div>
+  </div>
 </body>
 
 </html>
+
+
+
+
+
+  
+
+
+
+
