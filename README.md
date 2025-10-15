@@ -26,6 +26,11 @@ how to make changes
 
 here are some technologies used
 
+- html/css/js
+  - a good reference is w3 schools
+  - [w3 schools html](https://www.w3schools.com/html/).
+  - [w3 schools javascript](https://www.w3schools.com/js/).
+  - [w3 schools css](https://www.w3schools.com/css/).
 - ssi library used to implement server sides includes
   - [node.ssi](https://www.npmjs.com/package/@ln-e/node-ssi).
 - The website is hosted using [GitHub Pages](https://pages.github.com/).
