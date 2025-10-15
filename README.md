@@ -1,6 +1,8 @@
 # knt website
 
 the knt website is a hobby website about train stations, suburbs and quiet suburbs
+- the website is available here
+  - [KNT](https://kingofpopmj1.github.io)
 
 ## how to make changes to the website:
 how to make changes
@@ -17,9 +19,8 @@ how to make changes
   - `git commit -m "your commit message"`
 - deploy your changes
   - `git push`
-  - this will trigger the github-pages deployment
-- the website is available here
-  - [KNT](https://kingofpopmj1.github.io)
+  - this will trigger the github-pages deployment. Wait a few minutes for the deployment to run.
+- your changes should be deployed now.
 
 ## about the technology used to build the website:
 
